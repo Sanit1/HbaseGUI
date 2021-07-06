@@ -22,11 +22,7 @@ import javax.swing.UIManager;
 import javax.swing.border.TitledBorder;
 
 import com.lm.hbase.common.ImageIconConstons;
-import com.lm.hbase.tab.CreateTab;
-import com.lm.hbase.tab.MetaDataTab;
-import com.lm.hbase.tab.QueryTab;
-import com.lm.hbase.tab.TabInterface;
-import com.lm.hbase.tab.TableInfoTab;
+import com.lm.hbase.tab.*;
 
 public class HbaseGui {
 
@@ -144,6 +140,9 @@ public class HbaseGui {
 
         TabInterface createTab = new CreateTab(this);
         registerTab(createTab, tabbedPanel);
+
+        TabInterface insertValue = new InsertTab(this);
+        registerTab(insertValue, tabbedPanel);
 
         parentJframe.setVisible(true);
 
