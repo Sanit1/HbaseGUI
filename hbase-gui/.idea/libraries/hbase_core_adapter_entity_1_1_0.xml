@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hbase-core-adapter-entity-1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../HbaseGui-driver-adapter-entity/hbase-core-adapter-entity/target/hbase-core-adapter-entity-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
